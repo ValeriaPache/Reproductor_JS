@@ -11,23 +11,25 @@
   <div class="container-player">
     <h1>Play Music</h1>        
     <div class="container-album">
-      <img src="img/adele.webp" alt="album" class="player__img">
-      <h2 class="player__artist">Death Grips</h2>
-      <h3 class="player__song">Lost Boys</h3>
+      <img src="img/adele.webp" alt="album" class="player__img" id="album-cover">
+      <h2 class="player__artist" id="artist-name">Adele</h2>
+      <h3 class="player__song" id="song-title">Set Fire to the Rain</h3>
     </div>    
     <div class="controls">
       <audio class="player__audio" controls id="audio">
-        <source src="Death Grips - Lost Boys.mp3" type="audio/mpeg">
+        <source src="audio/set fire to the rain.mp3" type="audio/mpeg">
       </audio>
       <div class="player_controls">
+        <i class='bx bx-first-page' id="return1"></i>
         <i class='bx bx-rewind' id="rewind"></i>        
         <i class='bx bx-play' id="play"></i>
         <i class='bx bx-stop' id="stop"></i> 
         <i class='bx bx-pause' id="pause"></i>
-        <i class='bx bx-fast-forward' id="forward"></i> 
+        <i class='bx bx-fast-forward' id="forward"></i>
+        <i class='bx bx-first-page bx-rotate-180' id="pass"></i>
       </div>
     </div>
   </div>
-  <script src="app.js"></script>                    
+  <script src="app.js"></script>                
 </body>
 </html>
